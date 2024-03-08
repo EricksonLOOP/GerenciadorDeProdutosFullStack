@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background: #02283d;
+}
+
+.container-grid {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.addProdutos {
+    padding: 20px;
+    background-color: #91d7ec;
+    border-radius: 10px;
+    -webkit-box-shadow: -26px 18px 69px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -26px 18px 69px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -26px 18px 69px 0px rgba(0, 0, 0, 0.75);
+}
+
+.addProdutos form {
+    display: flex;
+    flex-direction: column;
+}
+
+.addProdutos form input {
+    margin: auto;
+
+    width: 300px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #70396c;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 30px 28px 69px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 30px 28px 69px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 30px 28px 69px 0px rgba(0, 0, 0, 0.75);
+}
+
+.addProdutos form input:focus {
+    margin: auto;
+    width: 300px;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    max-width: 100px;
+    border-radius: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    background: #700186;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.produtosDiv {
+    background-color: #91d7ec;
+    height: 100%;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: -26px 18px 69px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -26px 18px 69px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -26px 18px 69px 0px rgba(0, 0, 0, 0.75);
+}
+
+.icons {
+    width: 20px;
+}
+
+.btn-prod {
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+.btn-prod:hover {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.produtos {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 30px 28px 69px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 30px 28px 69px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 30px 28px 69px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btnShow {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.updateForm {
+    display: none;
+}
